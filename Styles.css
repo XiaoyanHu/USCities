@@ -6,10 +6,21 @@ body{height:100%;width: 100%;margin:0;padding:0;}
 	width:100%;
 }
 
-#header{
+.header{
 	height:8%;
 	width:100%;
 	top:0px;
+	border-bottom: :1px solid #8B008B;
+}
+
+.header a{
+	display:block;
+	background-image: url("./images/stone-banner.jpg")
+	background-repeat:repeat-x;
+	height:8%;
+	width:100%;
+	color:#8B008B;
+
 }
 
 #maincanvas{
