@@ -1,0 +1,38 @@
+html{height:100%;margin:0;padding:0;}
+body{height:100%;width: 100%;margin:0;padding:0;}
+
+#main{
+	height:100%;
+	width:100%;
+}
+
+#header{
+	height:8%;
+	width:100%;
+	top:0px;
+}
+
+#maincanvas{
+	height:84%;
+	width: 100%
+}
+
+#map{
+	height:100%;
+	width:70%;
+	position:relative;
+	float:left;
+}
+
+#infopanel{
+	position:relative;
+	width: 30%
+	height:100%;
+	text-align:center;
+}
+
+#footer{
+	height:8%;
+	width: 100%;
+	bottom: 0px;
+}
