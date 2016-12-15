@@ -17,6 +17,19 @@ body{height:100%;width: 100%;margin:0;padding:0;}
 	/*background: url("images/stone-banner.jpg");*/
 }
 
+.logo_box{
+	height: 100%;
+	width:5%;
+	text-align: center;
+}
+
+.logo_box:before{
+	content:' ';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
 .logo{
 	height:50%;
 	display: inline-block;
@@ -24,13 +37,14 @@ body{height:100%;width: 100%;margin:0;padding:0;}
 	margin: 0 auto;
 	
 }
+/*
 #header_pos {
   content: '';
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-/*
+
 #header_pos{
 	margin:0 auto;
 	float:left;
